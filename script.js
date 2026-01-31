@@ -5,3 +5,20 @@ let difference = a - b;
 
 console.log(sum);
 console.log(difference);
+
+// ===== Урок: операторы и условия ===== //
+let title = "";
+if(title === ""){
+    console.log("Газвание задачи не укахано");
+}else{
+    console.log("Задача:", title);
+}
+
+let tasks = 5;
+if(tasks === 0){
+    console.log("Список пуст");
+}else if(tasks<= 3){
+    console.log("Немного задач");
+}else{
+    console.log("Много задач");
+}
