@@ -9,7 +9,7 @@ console.log(difference);
 // ===== Урок: операторы и условия ===== //
 let title = "";
 if(title === ""){
-    console.log("Газвание задачи не укахано");
+    console.log("Название задач не указано");
 }else{
     console.log("Задача:", title);
 }
