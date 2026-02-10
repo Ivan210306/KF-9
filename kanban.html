@@ -19,6 +19,62 @@
     </header>
     <main class="container">
       <h1 class="page-title">Канбан</h1>
+      <div class="board">
+        <div class="column" data-status="todo">
+          <div class="column_header">
+            <h2>To Do</h2>
+            <span class="column_count">0</span>  
+          </div>
+          <div class="task-list">
+            <article class="task kanban">
+              <h3 class="task_title">Прочитать документацию</h3>
+              <p class="task_desc">Разобраться с методами drag&amp;drop API и локальным сохранением.</p>
+              <footer class="task_footer">
+                <span class="task_label high">Высокий прироитет</span>
+                <time class="task_date">до 12.11</time>
+              </footer>
+            </article>
+            </div>
+          <button class="add-task">+ Добавить задачу</button>
+        </div>
+
+        <div class="column" data-status="in-progress">
+          <div class="column_header">
+            <h2>In Progress</h2>
+            <span class="column_count">1</span>
+          </div>
+          <div class="task-list">
+            <article class="task kanban">
+              <h3 class="task_title">Сверстать главную страницу</h3>
+              <p class="task_desc">Создать фдаптивную сетку и добавить стили для хедера и кнопок.</p>
+              <footer class="task_footer">
+                <span class="task_label medium">Средний прироитет</span>
+                <time class="task_date">до 15.11</time>
+              </footer>
+            </article>
+          </div>
+          <button class="add-task">+ Добавить задачу</button>
+        </div>
+
+         <div class="column" data-status="done">
+          <div class="column_header">
+            <h2>Done</h2>
+            <span class="column_count">0</span>
+          </div>
+          <div class="task-list">
+            <article class="task kanban">
+              <h3 class="task_title">Настроить стили</h3>
+              <p class="task_desc">Согласовать цветовую схему и тени, привести отступы к системе 8px.</p>
+              <footer class="task_footer">
+                <span class="task_label low">Низкий прироитет</span>
+                <time class="task_date">до 10.11</time>
+              </footer>
+            </article>
+          </div>
+          <button class="add-task">+ Добавить задачу</button>
+        </div>
+      </div>
     </main>
+    <script src="kanban.js"></script>
   </body>
 </html>
